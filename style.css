@@ -1,42 +1,43 @@
-body{
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
-p{
-  text-align: center;
-}
-main{
-  margin-left:calc(50% - 115px);
+p {
+    text-align: center;
 }
 
-label.focused{
-  opacity: 1;
-  color:#26a69a;
-  top: -20px;
-  font-size: 14px;
+main {
+    margin-left: calc(50% - 115px);
 }
 
-div{
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
+label.focused {
+    opacity: 1;
+    color: #26a69a;
+    top: -20px;
+    font-size: 14px;
 }
-input{
+
+div {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
     border: none;
-    border-bottom:1px solid black;
+    border-bottom: 1px solid black;
 }
 
-input.focused{
-  border-bottom-color: #26a69a;
-  box-shadow: 0 1px 0 0 #26a69a;
+input.focused {
+    border-bottom-color: #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a;
 }
 
-label{
-  opacity: 0.4;
-  display:block;
-  position: absolute;
-  top:0;
-  left: 0;
-  transition: all 0.3s ease-out;
+label {
+    opacity: 0.4;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease-out;
 }
-
